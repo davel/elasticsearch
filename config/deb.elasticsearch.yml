@@ -1,0 +1,4 @@
+path:
+    data: "/var/elasticsearch/data"
+    work: "/var/elasticsearch/work"
+    logs: "/var/elasticsearch/logs"
