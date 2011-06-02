@@ -5,8 +5,8 @@ install:
 	mkdir -p $(DESTDIR)/usr/elasticsearch
 	cp -r build/distributions/exploded/bin build/distributions/exploded/lib $(DESTDIR)/usr/elasticsearch/
 	mkdir -p $(DESTDIR)/usr/elasticsearch/config
-	cp -r config/deb.elasticsearch.yml $(DESTDIR)/usr/elasticsearch/config/
-	cp -r config/deb.logging.yml $(DESTDIR)/usr/elasticsearch/config/
+	cp -r config/deb.elasticsearch.yml $(DESTDIR)/usr/elasticsearch/config/elasticsearch.yml
+	cp -r config/deb.logging.yml $(DESTDIR)/usr/elasticsearch/config/logging.yml
 	mkdir -p $(DESTDIR)/var/elasticsearch/data
 	mkdir -p $(DESTDIR)/var/elasticsearch/work
 	mkdir -p $(DESTDIR)/var/elasticsearch/logs
