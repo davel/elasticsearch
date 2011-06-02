@@ -1,3 +1,9 @@
+elasticsearch (0.16.2-1) lucid; urgency=low
+
+  * Upgrade to 0.16.2, and attempt to merge into source rather than binary.
+
+ -- Dave Lambley <davel@state51.co.uk>  Thu, 02 Jun 2011 15:24:21 +0000
+
 elasticsearch (0.14.4-9) lucid; urgency=low
 
   * Re-arrange directory structure.
