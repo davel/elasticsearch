@@ -1,0 +1,13 @@
+Source: elasticsearch
+Section: unknown
+Priority: extra
+Maintainer: Tomas Doran <t0m@state51.co.uk>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: elasticsearch
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends} openjdk-6-jre-headless
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
