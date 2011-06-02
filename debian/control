@@ -2,9 +2,9 @@ Source: elasticsearch
 Section: unknown
 Priority: extra
 Maintainer: Tomas Doran <t0m@state51.co.uk>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7), openjdk-6
 Standards-Version: 3.8.3
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://www.elasticsearch.org/
 
 Package: elasticsearch
 Architecture: all
