@@ -1,5 +1,5 @@
 build:
-	echo "That was easy"
+	sh ./gradlew release
 
 install:
 	mkdir -p $(DESTDIR)/usr/elasticsearch
